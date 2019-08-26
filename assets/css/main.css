@@ -74,12 +74,12 @@ input, select, textarea {
 
 .btn {
   background-color: #4644D4;
-  border: none;
   color: white;
-  padding: 16px 32px;
+	display: inline-block;
+  padding: 1em 2em;
   text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1em;
+  margin: 0.5em 0.5em;
   opacity: 0.6;
   transition: 0.3s;
 }

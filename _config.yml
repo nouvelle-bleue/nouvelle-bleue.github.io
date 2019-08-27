@@ -1,12 +1,12 @@
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
 title: Nouvelle Bleue
 description: Partons à la découverte de notre planète. Quelle menace plane sur le climat, l'océan et les écosystèmes ? Repensons et créons le monde à venir.
 keywords: climat, crise, écologie, géologie, océan, océanographie, paléo, sciences, vulgarisation, environnement, nouvelle, bleue, nouvelle-bleue, écriture, roman, monde, pôles
 plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

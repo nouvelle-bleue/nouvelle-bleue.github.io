@@ -9,12 +9,19 @@
 	<title>nouvelle bleue</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	{%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  <meta name="google-site-verification" content="3tpjWdh6PPA-iNvJu3Zouii3Q7RkdqTwGI_d6kF7eEoA" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 	<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas|PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="icon" type="image/png" href="logo3.png" />
-  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 	<link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
 
 </head>

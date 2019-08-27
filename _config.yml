@@ -1,12 +1,12 @@
 layout: default
 
-title: Nouvelle Bleue
+title: "Nouvelle Bleue"
 
 # Short description of your site
-description: Site de vulgarisation scientifique sur le climat, les océans et la crise écologique qui propose des solutions aux défis environnementaux actuels, avec pédagogie et poésie.
+description: "Site de vulgarisation scientifique sur le climat, les océans et la crise écologique qui propose des solutions aux défis environnementaux actuels, avec pédagogie et poésie."
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   
- keywords: climat, crise, écologie, géologie, océan, océanographie, paléo, sciences, vulgarisation, environnement, nouvelle, bleue, nouvelle-bleue, écriture, roman, monde, pôles
+ keywords: "climat, crise, écologie, géologie, océan, océanographie, paléo, sciences, vulgarisation, environnement, nouvelle, bleue, nouvelle-bleue, écriture, roman, monde, pôles"

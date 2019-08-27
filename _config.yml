@@ -6,3 +6,5 @@ description: Site de vulgarisation scientifique sur le climat, les océans et la
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  
+ keywords: climat, crise, écologie, géologie, océan, océanographie, paléo, sciences, vulgarisation, environnement, nouvelle, bleue, nouvelle-bleue, écriture, roman, monde, pôles

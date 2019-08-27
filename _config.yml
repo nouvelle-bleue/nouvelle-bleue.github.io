@@ -1,3 +1,8 @@
+title: Nouvelle Bleue
+
+# Short description of your site
+description: Site de vulgarisation scientifique sur le climat, les océans et la crise écologique qui propose des solutions aux défis environnementaux actuels, avec pédagogie et poésie.
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

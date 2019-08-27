@@ -79,7 +79,7 @@ input, select, textarea {
   padding: 1em 2em;
   text-align: center;
   font-size: 1em;
-  margin: 0em 0.5em 1.2em 0.5em;
+  margin: 0 0.5em 1.2em 0.5em;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -1864,6 +1864,10 @@ input, select, textarea {
 				width: auto;
 			}
 
+			.btn{
+				vertical-align: bottom;
+			}
+
 /* List */
 
 	ul {
@@ -2646,7 +2650,7 @@ input, select, textarea {
 							vertical-align: middle;
 							display: inline-block;
 							width: 18em;
-							height: 27em;
+							height: 23em;
 							background: #fff;
 							text-align: center;
 							padding: 0 1em 2em 1em;
@@ -2676,6 +2680,16 @@ input, select, textarea {
 							.carousel article p {
 								text-align: center;
 							}
+
+
+						.carousel article .btn {
+						position:absolute;
+						bottom:3%;
+						margin:0 1em 0 -5em;
+						align: center;
+						width:10em;
+						display: inline-block;
+					}
 
 				/* Wide */
 

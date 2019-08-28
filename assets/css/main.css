@@ -74,12 +74,12 @@ input, select, textarea {
 
 .btn {
   background-color: #4644D4;
+  border: none;
   color: white;
-	display: inline-block;
-  padding: 1em 2em;
+  padding: 16px 32px;
   text-align: center;
-  font-size: 1em;
-  margin: 0 0.5em 1.2em 0.5em;
+  font-size: 16px;
+  margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -113,7 +113,6 @@ input, select, textarea {
 
 	body {
 		background: #000859;
-		background-size: cover;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -1865,10 +1864,6 @@ input, select, textarea {
 				width: auto;
 			}
 
-			.btn{
-				vertical-align: bottom;
-			}
-
 /* List */
 
 	ul {
@@ -2325,14 +2320,14 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			opacity: 0;
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
-			-moz-transition-delay: 0.2s;
-			-webkit-transition-delay: 0.2s;
-			-ms-transition-delay: 0.2s;
-			transition-delay: 0.2s;
+			-moz-transition: opacity 2.5s ease-in-out;
+			-webkit-transition: opacity 2.5s ease-in-out;
+			-ms-transition: opacity 2.5s ease-in-out;
+			transition: opacity 2.5s ease-in-out;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
 		}
 
 	body.homepage.is-preload #header:after {
@@ -2682,16 +2677,6 @@ input, select, textarea {
 								text-align: center;
 							}
 
-
-						.carousel article .btn {
-						position:absolute;
-						bottom:3%;
-						margin:0 1em 0 -5em;
-						align: center;
-						width:10em;
-						display: inline-block;
-					}
-
 				/* Wide */
 
 					@media screen and (max-width: 1680px) {
@@ -2824,16 +2809,6 @@ input, select, textarea {
 				line-height: 1.5em;
 			}
 
-			body {
-				background-size: auto;
-				-webkit-background-size: auto;
-				color: #5b5b5b;
-				font-size: 15pt;
-				line-height: 1.85em;
-				font-family: 'Source Sans Pro', sans-serif;
-				font-weight: 300;
-			}
-
 			h2 {
 				font-size: 1.75em;
 			}
@@ -2875,11 +2850,7 @@ input, select, textarea {
 			}
 
 			.image.left {
-				margin: 0.5em 0.5em;
-			}
-
-			.image.right {
-				margin: 0.5em 0.5em;
+				margin: 0 1em 1em 0;
 			}
 
 			.image.right{
